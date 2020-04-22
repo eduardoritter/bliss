@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title>Clinica Bliss</title>
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css"
+		integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+
+	<link href="{{ url_for('static', filename='bootstrap.min.css') }}" rel="stylesheet">
+	<link href="{{ url_for('static', filename='grid.css') }}" rel="stylesheet">
+
+	<meta property="og:title" content="Home" />
+	<meta property="og:type" content="article" />
+	<meta property="og:url" content="https://www.blissclinica.com.br/" />
+	<meta property="og:site_name" content="Clinica Bliss" />
+</head>
+
+<body>
+
+	<div class="container">
+		<div class="jumbotron">
+			<div class="row justify-content-center">
+				<img alt="Clinica Bliss" src="{{ url_for('static', filename='logo.png') }}">
+			</div>
+		</div>
+
+		<div class="row marketing">
+			<div class="col-sm-4">
+				<address>
+					<h4>Endere&#231o</h4>
+					<p> Rua Capit&#227o Camboim, 32<br>
+						Sala 702 <br>
+						Centro <br>
+						Sapucaia do Sul, RS<br>
+						CEP 93220-070<br> </p>
+				</address>
+			</div>
+
+			<div class="col-sm-4">
+				<address>
+					<h4><abbr>Telefones</abbr></h4>
+					<p>(51) 3781-9443<br>(51) 99325-3303<br></p>
+				</address>
+				<address>
+					<h4>Email</h4>
+					<a href="mailto:contato@blissclinica.com.br">contato@blissclinica.com.br</a>
+				</address>
+			</div>
+
+			<div class="col-sm-4">
+				<address>
+					<h4><abbr>WhatsApp</abbr></h4>
+					<p><a href="http://wa.me/555193253303">(51) 9325-3303</a><br></p>
+				</address>
+				<address>
+					<h4>Instagram</h4>
+					<a href="https://www.instagram.com/bliss.sapucaia/">bliss.sapucaia</a>
+				</address>
+			</div>
+		</div>
+
+		<footer class="footer">
+			<p>&copy; 2020 Clinica Bliss</p>
+		</footer>
+
+	</div>
+
+</body>
+
+</html>
