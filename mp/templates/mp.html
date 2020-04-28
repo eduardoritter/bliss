@@ -5,26 +5,28 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
-	<title>Clinica Bliss</title>
+	<title>Nutricionista Marcia Porto</title>
 
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css"
 		integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
 
-	<link href="{{ url_for('static', filename='bootstrap.min.css') }}" rel="stylesheet">
-	<link href="{{ url_for('static', filename='grid.css') }}" rel="stylesheet">
+	<link href="{{ url_for('mp.static', filename='bootstrap.min.css') }}" rel="stylesheet">
+	<link href="{{ url_for('mp.static', filename='grid.css') }}" rel="stylesheet">
 
 	<meta property="og:title" content="Home" />
 	<meta property="og:type" content="article" />
-	<meta property="og:url" content="https://www.blissclinica.com.br/" />
-	<meta property="og:site_name" content="Clinica Bliss" />
+	<meta property="og:url" content="https://www.marciaporto.com/" />
+	<meta property="og:site_name" content="Nutricionista Marcia Porto" />
+
 </head>
 
-<body>
+<body background="{{ url_for('mp.static', filename='background.jpg') }}">
 
 	<div class="container">
+
 		<div class="jumbotron">
 			<div class="row justify-content-center">
-				<img alt="Clinica Bliss" src="{{ url_for('static', filename='logo.png') }}">
+				<img alt="Nutricionista Marcia Porto" src="{{ url_for('mp.static', filename='logo_mp.png') }}">
 			</div>
 		</div>
 
@@ -33,9 +35,9 @@
 				<address>
 					<h4>Endere&#231o</h4>
 					<p> Rua Capit&#227o Camboim, 32<br>
-						Sala 702 <br>
+						Sala 702<br>
 						Centro <br>
-						Sapucaia do Sul, RS<br>
+						Sapucaia do Sul, RS <br>
 						CEP 93220-070<br> </p>
 				</address>
 			</div>
@@ -43,11 +45,11 @@
 			<div class="col-sm-4">
 				<address>
 					<h4><abbr>Telefones</abbr></h4>
-					<p>(51) 3781-9443<br>(51) 99325-3303<br></p>
+					<p>(51) 3781-9443 <br>(51) 99325-3303<br>(51) 99307-5288</p>
 				</address>
 				<address>
 					<h4>Email</h4>
-					<a href="mailto:contato@blissclinica.com.br">contato@blissclinica.com.br</a>
+					<a href="mailto:nutri@marciaporto.com">nutri@marciaporto.com</a>
 				</address>
 			</div>
 
@@ -58,13 +60,13 @@
 				</address>
 				<address>
 					<h4>Instagram</h4>
-					<a href="https://www.instagram.com/bliss.sapucaia/">bliss.sapucaia</a>
+					<a href="https://www.instagram.com/nutrimarciaporto/">nutrimarciaporto</a>
 				</address>
 			</div>
 		</div>
 
 		<footer class="footer">
-			<p>&copy; 2020 Clinica Bliss</p>
+			<p>&copy; 2020 Nutricionista Marcia Porto</p>
 		</footer>
 
 	</div>
