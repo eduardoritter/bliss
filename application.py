@@ -1,8 +1,8 @@
 from flask import Flask
-#from mpbox import create_app
+from mpbox import create_app
 
-#app = create_app()
-app = Flask(__name__)
+app = create_app()
+#app = Flask(__name__)
 
 from bliss import bp as bliss_bp
 app.register_blueprint(bliss_bp)
